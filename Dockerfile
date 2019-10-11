@@ -4,7 +4,8 @@
 
 FROM ubuntu:18.04
 
-MAINTAINER Futa HIRAKOBA
+LABEL maintainer="korosuke613@gmail.com"
+
 ENV DEBIAN_FRONTEND=noninteractive
 
 RUN apt-get update && apt-get install -y \
